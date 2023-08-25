@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "@chakra-ui/react";
-import { GrLocation } from "react-icons/gr";
 import { MdOutlineEmail } from "react-icons/md";
 import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";

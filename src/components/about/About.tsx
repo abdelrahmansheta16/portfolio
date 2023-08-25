@@ -1,33 +1,33 @@
 import React, { useState } from "react";
 import { Heading, Text, Button, CloseButton } from "@chakra-ui/react";
 import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
-import { BsTelegram, BsChevronDown, BsWhatsapp } from "react-icons/bs";
+import { BsChevronDown, BsWhatsapp } from "react-icons/bs";
 import avatar from "./../../images/hi.png";
 import "./About.css";
 
 
 const About = () => {
-  
+
   const [isVisible, setIsVisible] = useState<boolean>(true);
 
   const hide = () => setIsVisible(false);
 
   const getFontSize = () => {
     const width = window.innerWidth;
-    if(width < 450) return "5rem";
-    if(width < 1250) return "6rem";
+    if (width < 450) return "5rem";
+    if (width < 1250) return "6rem";
     return "8rem";
   };
 
   const getAlertSize = () => {
     const width = window.innerWidth;
-    if(width < 1275) return "md";
+    if (width < 1275) return "md";
     return "lg";
   };
 
   const Alert = () => {
-    if(isVisible) {
-      return(
+    if (isVisible) {
+      return (
         <div className="alert">
           <Heading as="h3" size={getAlertSize()}>
             💻{"   "}<a href="mailto:abdelrahmansheta16@gmail.com" className="contact-link">Hire Me!</a>
@@ -36,12 +36,12 @@ const About = () => {
           <CloseButton size='lg' className="close-btn" onClick={() => hide()} />
         </div>
       );
-    }else{
+    } else {
       return null;
     }
   };
 
-  return(
+  return (
     <>
       <Alert />
       <div className="bg">
