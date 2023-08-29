@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Heading, Text, Button, CloseButton } from "@chakra-ui/react";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
 import { BsChevronDown, BsWhatsapp } from "react-icons/bs";
 import avatar from "./../../images/hi.png";
 import "./About.css";
@@ -68,6 +68,9 @@ const About = () => {
               </a>
               <a href="https://api.whatsapp.com/send/?phone=201033834714" target="_blank" rel="noreferrer">
                 <BsWhatsapp className="icon" />
+              </a>
+              <a href="https://www.linkedin.com/in/abdelrahman-sheta-1639ab203" target="_blank" rel="noreferrer">
+                <AiFillLinkedin className="icon" />
               </a>
             </div>
 

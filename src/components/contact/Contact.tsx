@@ -29,7 +29,7 @@ export const contacts: Contact[] = [
     url: "https://twitter.com/abdelra14880048",
   },
   {
-    name: "TELEGRAM:",
+    name: "WHATSAPP:",
     info: "@Abdo",
     icon: <BsWhatsapp className="contact-icon" />,
     url: "https://api.whatsapp.com/send/?phone=201033834714",
