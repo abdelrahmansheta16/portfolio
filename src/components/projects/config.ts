@@ -1,6 +1,7 @@
 import { getSkill, Skill } from "../skills/config";
 import SimpleChat from "./../../images/simple-chat.png";
 import Kitties from "./../../images/kitties.png";
+import Netflix from "./../../images/Netflix.png";
 import Crypto from "./../../images/crypto-tracker.png";
 import Diamond from "./../../images/diamond-hands.png";
 import Coin from "./../../images/coin-flip.png";
@@ -21,6 +22,13 @@ export const projects: Project[] = [
     image: Kitties,
     github: "https://github.com/abdelrahmansheta16/Kitty-Market",
     technologies: getSkill(["NEXT.js", "EthersJS", "alchemy sdk", "viem", "wagmi", "rainbow kit", "html", "css"])
+  },
+  {
+    name: "Netflix-Clone",
+    description: "Create a Netflix-inspired streaming platform using Next.js, offering user authentication, dynamic content, recommendations, and a responsive design. This project will deliver a seamless streaming experience with user profiles.",
+    image: Netflix,
+    github: "https://github.com/abdelrahmansheta16/Netflix-Clone",
+    technologies: getSkill(["NEXT.js","GraphQL","Hasura","Magic", "html", "css"])
   },
   {
     name: "Collaborative Whiteboard",

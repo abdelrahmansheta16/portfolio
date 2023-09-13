@@ -22,6 +22,8 @@ import Next from "./../../images/nextjs-logo.png";
 import IPFS from "./../../images/ipfs-logo.png";
 import Apollo from "./../../images/apollo-logo.png";
 import GraphQL from "./../../images/graphql-logo.png";
+import Hasura from "./../../images/hasura_logo.webp";
+import Magic from "./../../images/magiclogo.svg";
 import Socket from "./../../images/socket.svg";
 import NodeJS from "./../../images/nodej-js.png";
 
@@ -147,6 +149,16 @@ export const skills: Skill[] = [
     name: "GraphQl",
     url: "https://graphql.org/",
     img: GraphQL
+  },
+  {
+    name: "Hasura",
+    url: "https://hasura.io/",
+    img: Hasura
+  },
+  {
+    name: "Magic",
+    url: "https://magic.link/",
+    img: Magic
   },
   {
     name: "IPFS",

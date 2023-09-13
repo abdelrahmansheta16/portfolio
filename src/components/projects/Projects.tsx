@@ -2,7 +2,7 @@ import React from "react";
 import { v4 as uuidv4 } from "uuid";
 import { Button, HStack, Heading, Text, Tag, Avatar, TagLabel } from "@chakra-ui/react";
 import { projects, Project } from "./config";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { Skill } from "../skills/config";
 import "./Projects.css";
 
@@ -45,6 +45,11 @@ const Projects = () => {
                   <a href={project.github} target="_blank" rel="noreferrer">
                     <Button size='md' leftIcon={<AiFillGithub />} colorScheme='blue' variant='solid'>GitHub</Button>
                   </a>
+                  {
+                    (project.name == "CryptoKitties" || project.name == "Netflix-Clone") ? <a href={project.name == "CryptoKitties" ? "https://main--stellar-puppy-64d78e.netlify.app" :"https://netflix-clone-jj8wt7d1b-abdelrahmansheta16.vercel.app"} target="_blank" rel="noreferrer">
+                      <Button size='md' leftIcon={<AiFillProject />} colorScheme='black' variant='solid'>Demo</Button>
+                    </a>:null
+                  }
                 </HStack>
               </div>
             </div>
