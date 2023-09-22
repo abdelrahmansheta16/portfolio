@@ -12,6 +12,7 @@ import certificate7 from "./images/solidity-ethereum-and-blockchain-the-complete
 import certificate8 from "./images/web3-masterclass-blockchain-dapps-daos-more.jpg";
 import certificate9 from "./images/ezgif.com-optimize.gif";
 import certificate10 from "./images/certificate-of-completion-for-complete-next-js-developer-in-2022-zero-to-mastery.jpg";
+import certificate11 from "./images/Coursera QWSTEDZAZHXX.jpg";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -47,6 +48,9 @@ const Certificates = () => {
           }}
         >
           <SwiperSlide>
+            <img src={certificate11} alt="Certificate" className="certificate-img" style={{ "height": "30vw", "width": "100vw" }} />
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={certificate1} alt="Certificate" className="certificate-img" />
           </SwiperSlide>
           <SwiperSlide>
@@ -65,17 +69,17 @@ const Certificates = () => {
             <img src={certificate6} alt="Certificate" className="certificate-img" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={certificate7} alt="Certificate" className="certificate-img" />
+            <img src={certificate7} alt="Certificate" className="certificate-img" style={{ "height": "30vw","width":"100vw" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={certificate8} alt="Certificate" className="certificate-img" />
+            <img src={certificate8} alt="Certificate" className="certificate-img" style={{ "height": "30vw", "width": "100vw" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={certificate10} alt="Certificate" className="certificate-img" />
+            <img src={certificate10} alt="Certificate" className="certificate-img" style={{ "height": "30vw", "width": "100vw" }} />
           </SwiperSlide>
           <SwiperSlide>
             <a href="https://opensea.io/assets/matic/0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6/15055/">
-              <img src={certificate9} alt="Certificate" className="certificate-img" />
+              <img src={certificate9} alt="Certificate" className="certificate-img" style={{ "height": "30vw", "width": "100vw" }} />
             </a>
           </SwiperSlide>
         </Swiper>
