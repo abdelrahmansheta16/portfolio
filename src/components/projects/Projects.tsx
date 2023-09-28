@@ -46,7 +46,7 @@ const Projects = () => {
                     <Button size='md' leftIcon={<AiFillGithub />} colorScheme='blue' variant='solid'>GitHub</Button>
                   </a>
                   {
-                    (project.name == "CryptoKitties" || project.name == "Netflix-Clone") ? <a href={project.name == "CryptoKitties" ? "https://main--stellar-puppy-64d78e.netlify.app" :"https://netflix-clone-jj8wt7d1b-abdelrahmansheta16.vercel.app"} target="_blank" rel="noreferrer">
+                    (project.name == "CryptoKitties" || project.name == "Netflix-Clone") ? <a href={project.name == "CryptoKitties" ? "https://main--unique-zabaione-9f819b.netlify.app" :"https://netflix-clone-jj8wt7d1b-abdelrahmansheta16.vercel.app"} target="_blank" rel="noreferrer">
                       <Button size='md' leftIcon={<AiFillProject />} colorScheme='black' variant='solid'>Demo</Button>
                     </a>:null
                   }

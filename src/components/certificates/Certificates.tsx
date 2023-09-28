@@ -48,7 +48,7 @@ const Certificates = () => {
           }}
         >
           <SwiperSlide>
-            <img src={certificate11} alt="Certificate" className="certificate-img" style={{ "height": "30vw", "width": "100vw" }} />
+            <img src={certificate11} alt="Certificate" className="certificate-img" style={{ "height": "35vw", "width": "100vw" }} />
           </SwiperSlide>
           <SwiperSlide>
             <img src={certificate1} alt="Certificate" className="certificate-img" />
@@ -69,17 +69,17 @@ const Certificates = () => {
             <img src={certificate6} alt="Certificate" className="certificate-img" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={certificate7} alt="Certificate" className="certificate-img" style={{ "height": "30vw","width":"100vw" }} />
+            <img src={certificate7} alt="Certificate" className="certificate-img" style={{ "height": "35vw","width":"100vw" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={certificate8} alt="Certificate" className="certificate-img" style={{ "height": "30vw", "width": "100vw" }} />
+            <img src={certificate8} alt="Certificate" className="certificate-img" style={{ "height": "35vw", "width": "100vw" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={certificate10} alt="Certificate" className="certificate-img" style={{ "height": "30vw", "width": "100vw" }} />
+            <img src={certificate10} alt="Certificate" className="certificate-img" style={{ "height": "35vw", "width": "100vw" }} />
           </SwiperSlide>
           <SwiperSlide>
             <a href="https://opensea.io/assets/matic/0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6/15055/">
-              <img src={certificate9} alt="Certificate" className="certificate-img" style={{ "height": "30vw", "width": "100vw" }} />
+              <img src={certificate9} alt="Certificate" className="certificate-img" style={{ "height": "35vw", "width": "100vw" }} />
             </a>
           </SwiperSlide>
         </Swiper>
