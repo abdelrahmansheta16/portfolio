@@ -56,7 +56,7 @@ const About = () => {
               </Heading>
             </div>
             <div className="about-text-desc">
-              <Text fontSize='3xl'><span className="name">BLOCKCHAIN DEVELOPER</span> from Egypt, dedicated to the web3 industry. I&apos;m passionate about innovation and continuous learning. Let&apos;s connect to drive blockchain solutions forward!</Text>
+              <Text fontSize='3xl'><span className="name">WEB3/BLOCKCHAIN DEVELOPER</span> , dedicated to the web3 industry. I&apos;m passionate about innovation and continuous learning, and currently working with Ethereum and Solidity. Let&apos;s connect to drive blockchain solutions forward!</Text>
             </div>
 
             <div className="icons">
